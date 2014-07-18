@@ -7,7 +7,7 @@
     <message-driven-descriptor>
       <destination-jndi-name>me.yekki.dep.outbound.1</destination-jndi-name>
       <initial-context-factory>weblogic.jndi.WLInitialContextFactory</initial-context-factory>
-      <provider-url>t3://localhost:7001</provider-url>
+      <provider-url>t3://10.10.198.231:7001</provider-url>
       <connection-factory-jndi-name>me.yekki.dep.connection_factory</connection-factory-jndi-name>
     </message-driven-descriptor>
   </weblogic-enterprise-bean>
@@ -16,7 +16,7 @@
     <message-driven-descriptor>
       <destination-jndi-name>me.yekki.dep.outbound.2</destination-jndi-name>
       <initial-context-factory>weblogic.jndi.WLInitialContextFactory</initial-context-factory>
-      <provider-url>t3://localhost:7001</provider-url>
+      <provider-url>t3://10.10.198.231:7001</provider-url>
       <connection-factory-jndi-name>me.yekki.dep.connection_factory</connection-factory-jndi-name>
     </message-driven-descriptor>
   </weblogic-enterprise-bean>

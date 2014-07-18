@@ -24,6 +24,7 @@
       <string v="oracle.jdeveloper.model.PathsConfiguration/ResourceBundlesContentSet"/>
    </list>
    <list n="listOfChildren">
+      <hash><url n="URL" path="Addons/Addons.jpr"/></hash>
       <hash><url n="URL" path="Dispatcher/Dispatcher.jpr"/></hash>
       <hash><url n="URL" path="Listeners/Listeners.jpr"/></hash>
       <hash><url n="URL" path="SenderTimer/SenderTimer.jpr"/></hash>

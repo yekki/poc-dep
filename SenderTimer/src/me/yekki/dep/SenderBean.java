@@ -58,7 +58,7 @@ public class SenderBean {
         try {
             Hashtable ht = new Hashtable();   
             ht.put(Context.INITIAL_CONTEXT_FACTORY, "weblogic.jndi.WLInitialContextFactory");   
-            ht.put(Context.PROVIDER_URL, "t3://127.0.0.1:7001");
+            ht.put(Context.PROVIDER_URL, "t3://10.10.198.231:7001");
             ht.put(Context.SECURITY_PRINCIPAL, "weblogic");
             ht.put(Context.SECURITY_CREDENTIALS, "welcome1");
             ctx = new InitialContext(ht);
